@@ -14,10 +14,10 @@ public class Main {
             Integer thirdDigit = number % 10;
             Integer[] sub = {firstDigit, secondDigit, thirdDigit};
             Arrays.sort(sub);
-            System.out.println(Arrays.toString(sub));
+            System.out.println("Digits smallest to largest: " + Arrays.toString(sub));
 
             Arrays.sort(sub, Collections.reverseOrder());
-            System.out.println(Arrays.toString(sub));
+            System.out.println("Digits largest to smallest: " + Arrays.toString(sub));
 
 
 
